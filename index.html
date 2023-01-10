@@ -825,7 +825,8 @@
                     width="80"
                     style="display: inline-block"
                   /><br /><br />
-                  Thank you for your inquiry! <br />We'll be in touch shortly.
+                  Thank you for your inquiry! <br />We'll be in touch with you
+                  shortly.
                 </div>
                 <form
                   data-watch-threshold="0.2"
@@ -1014,44 +1015,6 @@
     </div>
 
     <script src="js/app.min.js?_v=20230110090737"></script>
-    <script type="text/javascript">
-      const formSelector = document.getElementById("form-default");
-      const formSuccessSelector = document.getElementById("form-success");
-
-      const subscribeURL =
-        "https://assets.mailerlite.com/jsonp/285229/forms/76918907714143988/subscribe";
-      const fields = ["name", "email", "phone", "message"].map(
-        (x) => `fields[${x}]`
-      );
-
-      window.addEventListener("submit", (event) => {
-        event.preventDefault();
-
-        const formData = new FormData();
-
-        fields.forEach((field) => {
-          formData.append(
-            field,
-            document.querySelector(`[name="${field}"]`).value
-          );
-        });
-
-        fetch(subscribeURL, {
-          method: "POST",
-          body: formData,
-        }).then((data) => {
-          formSelector.style.display = "none";
-          formSuccessSelector.style.display = "block";
-        });
-      });
-
-      /*
-       */
-
-      function handleSubmit(event) {
-        console.log(event);
-        alert("test");
-      }
-    </script>
+    <script src="js/form.js" async></script>
   </body>
 </html>

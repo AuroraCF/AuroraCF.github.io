@@ -258,13 +258,26 @@
 
               <!-- column -->
               <div class="contact-us__column">
+                <div
+                  id="form-success"
+                  class="contact-us__form contact-us__form_success"
+                  style="text-align: center; padding: 200px 0; display: none"
+                >
+                  <img
+                    src="img/icons/circle-check-regular.svg"
+                    width="80"
+                    style="display: inline-block"
+                  /><br /><br />
+                  Thank you for your inquiry! <br />We'll be in touch with you
+                  shortly.
+                </div>
                 <form
                   data-watch-threshold="0.2"
                   data-watch-once
                   data-watch
                   name="contact-us-form"
-                  class="contact-us__form"
-                  action="https://assets.mailerlite.com/jsonp/285229/forms/76918907714143988/subscribe"
+                  id="form-default"
+                  class="contact-us__form contact-us__form_default"
                   method="post"
                 >
                   <div class="contact-us__form-line">
@@ -292,12 +305,11 @@
                   </div>
                   <div class="contact-us__form-line">
                     <input
-                      required
                       autocomplete="off"
                       type="text"
                       name="fields[phone]"
                       data-error=""
-                      placeholder="Phone number *"
+                      placeholder="Phone number"
                       class="input"
                     />
                   </div>
@@ -440,5 +452,6 @@
     </div>
 
     <script src="js/app.min.js?_v=20230110090737"></script>
+    <script src="js/form.js" async></script>
   </body>
 </html>

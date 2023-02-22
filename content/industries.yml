@@ -1,0 +1,60 @@
+- path: "/industry/fintech"
+  title: "Fintech"
+  description: "How Aurora helps Fintech startup reach the moon"
+  headline: "Battle-tested Fintech solutions"
+  image: "/images/industries/fintech.svg"
+  content: "
+    <p>
+      At Aurora, we work closely with Fintech and Blockchain startups to help them build innovative products and prepare for their next funding rounds. Our experienced team of startup builders provides guidance and support throughout the entire product development lifecycle, from idea to launch.
+    </p>
+    <p>
+      We start by getting to know the startup founders and their vision, helping them refine their ideas and turn them into viable products. Our team has deep expertise in Fintech and Blockchain, and we leverage this knowledge to help startups design and develop products that meet market needs and are highly scalable.
+    </p>
+    <p>
+      We believe in partnering with our clients to achieve their goals, and we work side-by-side with startups, offering support and guidance every step of the way. Whether you're just starting out or looking to take your product to the next level, we're here to help 🚀
+    </p>
+  "
+  caseStudies:
+    - argent
+    - dyos
+    - dpay
+
+- path: "/industry/data-analytics-ai"
+  title: "Data Analytics & AI"
+  description: "Innovative Data Analytics and AI solutions for startups"
+  headline: "Innovative Data Analytics and AI solutions for startups"
+  image: "/images/industries/data.svg"
+  content: "
+    <p>Aurora understands how important Data Analytics and AI are for startups, and we have helped numerous startups create great products in these fields. Our experienced team is well aware of how essential data analytics is for many ecosystems and we are extremely knowledgeable and experienced in this field.</p>
+    <p>We also recognize that AI is the future and many systems now depend on it. That is why we are able to use the latest, up-to-date technologies to deliver outstanding AI solutions to our clients.</p>
+    <p>Aurora is committed to providing the best possible service for the startups that come to us. Our team is dedicated to staying up-to-date with the latest technologies and trends to ensure that our clients are always getting industry-leading solutions.</p>
+  "
+  caseStudies:
+    - ubdi
+
+- path: "/industry/social-network-community"
+  title: "Social Network & Community"
+  description: "How Aurora can build engaging community and social network apps"
+  headline: "Bringing People Together: Building Social Networks and Communities"
+  image: "/images/industries/community.svg"
+  content: "
+    <p>Aurora’s team has extensive experience in building social networks and communities that join people with shared interests. We understand the importance of creating a platform that can bring people together, and our clients can attest to the amazing results we have delivered.</p>
+    <p>We have built communities with millions of users and we believe that technology has the power to bring people together and foster collaboration between them.</p>
+    <p>Our team is passionate about helping you create the perfect platform for your community. With our expertise and support, you can be sure that your platform will be successful and attract the target members.</p> 
+  "
+  caseStudies:
+    - playmaker
+
+- path: "/industry/health-and-fitness"
+  title: "Health & Fitness"
+  description: "Health and Fitness Excellence with Aurora Code"
+  headline: "Health and Fitness Excellence with Aurora Code"
+  image: "/images/industries/fitness.svg"
+  content: "
+    <p>At Aurora Code, we recognize how important health is in our modern, hectic life. We are committed to helping startups in the health and fitness industries, which is why we have a specialized team of experienced developers that have worked on numerous projects in these areas.</p>
+    <p>We have created innovative training solutions to help individuals on their journey to a healthy lifestyle. We have also built powerful SAAS solutions for gyms and other fitness businesses, helping them manage their customer base, optimize their operations, and increase their profits.</p>
+    <p>Many startups in the health and fitness industry have chosen Aurora Code as their go-to development partner. We strive to provide the best customer service, the most reliable and secure solutions, and the fastest turnarounds. With Aurora, you can be sure to get the best service from a team that understands these industries in-depth!</p>
+  "
+  caseStudies:
+    - blocktrain
+    - upgym

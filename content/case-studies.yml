@@ -1,0 +1,244 @@
+- path: "/case-study/ubdi"
+  caseStudyId: "ubdi"
+  productName: "UBDI"
+  productDescription: "UBDI is a product focused on enabling users to earn money by selling their data through a mobile app."
+  title: "UBDI Case Study"
+  description: "How Aurora helped UBDI revolutionize the $76B Market Research & Insights Industry"
+  logo: "/images/service-pages/ubdi-logo.svg"
+  technologies:
+    - react
+    - nodejs
+    - reactNative
+    - graphql
+    - lambda
+    - mongo
+    - postgres
+    - tableau
+  headline: "Revolutionizing the $76B Market Research & Insights Industry"
+  blocks:
+    - text: "
+      <p>
+        UBDI is a revolutionary company that is transforming the
+        $76B global market research and insights industry by
+        creating a Universal Basic Data Income. They are building a
+        community of individuals and companies dedicated to the
+        ethical monetization of data, allowing individuals to
+        anonymously monetize trends and insights from their data
+        from thousands of sources.
+      </p>
+      <p>
+        When UBDI approached Aurora Code, they were in need
+        of a software development partner to help build their
+        product from the ground up. Aurora Code's team of
+        experienced developers used a range of technologies,
+        including React, Node.js, GraphQL, AWS Lambda, Mongo,
+        Postgres, and Tableau, to bring UBDI's vision to life.
+      </p>"
+      image: "/images/service-pages/ubdi-1.png"
+    - text: "
+        <p>
+          The developers worked closely with the UBDI team to
+          architect the product and track user behavior, as well as
+          build a powerful and highly-secure data source connector.
+          The result was beautiful web and mobile apps that allow
+          UBDI's users to easily monetize their data, and insightful
+          charts that provide valuable insights into trends and
+          patterns in the data.
+        </p>
+        <p>
+          Thanks to Aurora Code's expertise and commitment to
+          excellence, UBDI has been able to successfully launch their
+          product and begin revolutionizing the market research and
+          insights industry.
+        </p>"
+      image: "/images/service-pages/ubdi-2.png"
+
+- path: "/case-study/argent"
+  caseStudyId: "argent"
+  productName: "Argent"
+  productDescription: "Argent is the world’s simplest and safest crypto wallet allowing users to buy, earn, stake, and trade on Ethereum Layer 2."
+  title: "Argent Case Study"
+  description: "How Aurora helped deliver the world's most secure and user-friendly crypto wallet"
+  logo: "/images/service-pages/argent-logo.svg"
+  technologies:
+    - react
+    - nodejs
+    - solidity
+    - graphql
+    - lambda
+  headline: "Delivering the World's Most Secure and User-Friendly Crypto Wallet"
+  blocks:
+    - text: "
+      <p>
+        Aurora Code is proud to have worked with Argent, the world's simplest and safest crypto wallet. Our team was responsible for helping Argent create the only wallet on the market with multi-signature security and social recovery.
+      </p>
+      <p>
+        We utilized a range of technologies, including React, Node.js, Solidity, GraphQL, and AWS Lambda, to build the web solution and backend of Argent's ecosystem. Our team was also actively involved in improving Argent's code architecture and implementing industry-level security principles.
+      </p>"
+      image: "/images/service-pages/argent-1.png"
+    - text: "
+        <p>
+          Argent's wallet allows users to buy, earn, stake, and trade on Ethereum Layer 2, making it a valuable tool for anyone interested in the world of cryptocurrency. With our team's help, Argent has become the go-to choice for a secure and user-friendly crypto wallet.
+        </p>
+        <p>
+          The project was a success not only because of the technical expertise of our team but also because of our commitment to delivering excellent customer service. We worked closely with Argent to understand their specific needs and goals, and we made sure to keep them updated on our progress throughout the project.
+        </p>"
+      image: "/images/service-pages/argent-2.png"
+
+- path: "/case-study/playmaker"
+  caseStudyId: "playmaker"
+  productName: "Playmaker"
+  productDescription: "A popular app for Fantasy Premier League discussion, stats, live FPL rank, and the community around it."
+  title: "Playmaker Case Study"
+  description: "How Aurora helped take the Fantasy Premier League to the next level"
+  logo: "/images/service-pages/playmaker-logo.svg"
+  technologies:
+    - react
+    - nodejs
+    - reactNative
+    - graphql
+    - lambda
+    - psql
+  headline: "Taking Fantasy Premier League to the Next Level"
+  blocks:
+    - text: "
+      <p>
+        Playmaker is a popular app for Fantasy Premier League discussion, stats, live FPL rank, and the community around it. The company approached Aurora Code for help with user analysis, idea brainstorming, and the development of their web and mobile apps.
+      </p>
+      <p>
+        Aurora Code's team of experienced software developers utilized a range of technologies, including React, React Native, Node.js, GraphQL, AWS Lambda, and PostgreSQL, to bring Playmaker's vision to life. The developers worked closely with the Playmaker team to understand their needs and goals and provided valuable insights and recommendations along the way.
+      </p>"
+      image: "/images/service-pages/playmaker-1.png"
+    - text: "
+        <p>
+          The result was a sleek, user-friendly app that has become a go-to destination for Fantasy Premier League enthusiasts. Playmaker has seen a significant increase in user engagement and satisfaction since launching the updated app and has received praise for its intuitive design and comprehensive feature set.
+        </p>
+        <p>
+          Aurora Code's expertise in web and mobile app development, along with its ability to effectively leverage cloud infrastructure, made them the ideal partner for Playmaker. The success of the project is a testament to the value that Aurora Code brings to its clients.
+        </p>"
+      image: "/images/service-pages/playmaker-2.png"
+
+- path: "/case-study/blocktrain"
+  caseStudyId: "blocktrain"
+  productName: "BlockTrain"
+  productDescription: "Harnessing the power of technology for fitness: Optimizing your fitness journey with BlockTrain."
+  title: "BlockTrain Case Study"
+  description: "How Aurora created a workout builder app"
+  logo: "/images/service-pages/blocktrain-logo.svg"
+  technologies:
+    - react
+    - nodejs
+    - graphql
+  headline: "Harnessing the power of technology for fitness"
+  blocks:
+    - text: "
+      <p>
+        Aurora Code recently worked with BlockTrain to create a revolutionary training application. BlockTrain allows users to create their own custom workouts from existing exercises or ones that they can create themselves. Once the workout is built, users can enter the guided workout mode, which includes a timer and details such as the round number and selected exercise details.
+      </p>
+      <p>
+        In order to create the app, Aurora Code used a combination of the latest technologies and its extensive experience in creating customer-facing apps. We implemented features such as a drag-and-drop exercise builder and a timer that was synchronized with the user’s device. Aurora Code also collaborated with the BlockTrain team to create an intuitive and user-friendly interface.
+      </p>"
+      image: "/images/service-pages/blocktrain-1.png"
+    - text: "
+        <p>
+          The result was an application that has received high praise from users and fitness experts alike. BlockTrain’s users can now create effective and personalized workouts that they can use to reach their fitness goals. They can also track their progress, analyze their results, and make adjustments to their routine as needed.
+        </p>
+        <p>
+          We understand the importance of delivering a product that is both functional and easy to use, and our team of experienced developers has the expertise and skills to make it happen. Our success with the BlockTrain app is a testament to our ability to develop powerful and reliable software for our clients from the fitness industry.
+        </p>"
+      image: "/images/service-pages/blocktrain-2.png"
+
+- path: "/case-study/upgym"
+  caseStudyId: "upgym"
+  productName: "UpGym"
+  productDescription: "The UpGym ecosystem consists of solutions that enable gym owners fully manage and oversee their facilities and members."
+  title: "UpGym Case Study"
+  description: "How Aurora create UpGym"
+  logo: "/images/service-pages/upgym-logo.svg"
+  technologies:
+    - react
+    - reactNative
+    - nodejs
+    - graphql
+    - postgres
+  headline: "A Perfect Fit: UpGym's End-to-End Gym Management Ecosystem"
+  blocks:
+    - text: "
+        <p>
+          Aurora Code is happy to have helped UpGym in the development of its entire gym management environment. Our professional development team worked diligently to create two applications that provide gym owners and members with a full suite of features.
+        </p>
+        <p>
+          The UpGym management dashboard gives gym owners and managers a comprehensive overview of what is going on in their gym. It includes an overview of members' analytics, app subscriptions, recent transactions, and companies that have signed up for group training. The dashboard also allows managers to create and organize group classes and training for their members.
+        </p>"
+      image: "/images/service-pages/upgym-1.png"
+    - text: "
+        <p>
+          The mobile application for gym members provides a personalized experience for users, allowing them to track their fitness goals, participate in group fitness classes, book personal training sessions, and view their personal performance analytics. 
+        </p>
+        <p>
+          Aurora Code was able to develop the gym management ecosystem within a tight timeline while ensuring that the features were able to scale with the growing needs of the UpGym community. We also provided ongoing support to ensure the system was running smoothly and that any encountered issues were resolved efficiently.
+        </p>"
+      image: "/images/service-pages/upgym-2.png"
+
+- path: "/case-study/dyos-wallet"
+  caseStudyId: "dyos"
+  productName: "dyos Wallet"
+  productDescription: "dyos wallet is a cryptocurrency wallet that utilizes a variety of different currencies, a crypto exchange functionality, and much more!"
+  title: "dyos Wallet Case Study"
+  description: "How Aurora create a world-class crypto wallet"
+  logo: "/images/service-pages/dyos-logo.svg"
+  technologies:
+    - reactNative
+    - nodejs
+    - lambda
+    - solidity
+    - graphql
+  headline: "Revolutionizing Cryptocurrency Transactions and Trading with dyos Wallet"
+  blocks:
+    - text: "
+        <p>
+          Aurora Code has worked on dyos wallet implementation: a cryptocurrency wallet project that is sure to revolutionize the way people interact with digital currencies. The wallet is equipped with the capability to send and receive a variety of different coins and tokens. Additionally, the wallet contains an integrated exchange feature that allows users to convert different coins and tokens quickly and conveniently. The exchange even supports the conversion of cryptocurrencies to fiat currencies, making it the perfect tool for digital currency trading.
+        </p>
+        <p>
+          Moreover, the app contains the latest crypto news, so users can stay up to date with the latest trends and movements in the market. We developed both iOS and Android versions of the app from the ground up, ensuring that users have access to a secure and reliable crypto wallet.
+        </p>"
+      image: "/images/service-pages/dyos-1.png"
+    - text: "
+        <p>
+          The project was a success due to our attention to detail and focus on user experience. We placed a strong emphasis on security and user privacy, ensuring that all data is protected from third-party access. We also utilized the most up-to-date technologies to create efficient and streamlined applications.
+        </p>
+        <p>
+          Overall, this project was a great success and we are proud of the work we have done. The wallet is sure to become a mainstay in the cryptocurrency world, and we look forward to seeing what the future holds for this innovative technology.
+        </p>"
+      image: "/images/service-pages/dyos-2.png"
+
+- path: "/case-study/dpay"
+  caseStudyId: "dpay"
+  productName: "dPay"
+  productDescription: "Cryptocurrency payment point of sale that takes a variety of cryptocurrencies as a mode of payment."
+  title: "dPay Case Study"
+  description: "How Aurora create a world-class payment gateway"
+  logo: "/images/service-pages/dpay-logo.svg"
+  technologies:
+    - react
+    - reactNative
+    - nodejs
+    - lambda
+  headline: "Unlocking the Future of Payments: dPay cryptocurrency Point of Sale"
+  blocks:
+    - text: "
+        <p>
+          Aurora Code has recently completed the development of a groundbreaking cryptocurrency payment solution called dPay. This ecosystem was built from the ground up and provides business owners with an easy way to accept cryptocurrencies as a form of payment.
+        </p>
+        <p>
+          At the center of this ecosystem is the dPay console, which provides business owners with a complete overview and analytics of their crypto income. This console also gives them the ability to withdraw crypto earnings into their banks.
+        </p>"
+      image: "/images/service-pages/dpay-1.png"
+    - text: "
+        <p>
+          dPay is an innovative solution that opens up a world of possibilities for businesses. Not only does it allow them to accept payments in a variety of cryptocurrencies, but the analytics and withdrawal features give them the ability to better manage their finances.
+        </p>
+        <p>
+          Overall, Aurora Code’s team of software developers has done an excellent job in creating a secure and reliable cryptocurrency payment solution. With a modern interface, comprehensive analytics, and instant cash withdrawals, dPay is sure to be a hit with businesses that want to integrate cryptocurrencies into their payment systems.
+        </p>"
+      image: "/images/service-pages/dpay-2.png"

@@ -2,6 +2,8 @@ name: Deploy Landing Page
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * THU"
   push:
     branches:
       - main

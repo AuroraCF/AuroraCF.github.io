@@ -1,9 +1,10 @@
 name: Deploy Landing Page
 
 on:
+  workflow_dispatch:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -12,5 +13,5 @@ jobs:
       - uses: actions/checkout@v1
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
-          access-token: ${{ secrets.ACCESS_TOKEN }}
+          access-token: x-access-token:${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages

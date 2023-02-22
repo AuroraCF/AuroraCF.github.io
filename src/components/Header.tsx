@@ -83,8 +83,8 @@ export const Header = ({
                     <a href="/industry/fintech">Fintech</a>
                   </li>
                   <li>
-                    <a href="/industry/data-analytics-ai">
-                      Data Analytics & AI
+                    <a href="/industry/data-and-ai">
+                      Data & AI
                     </a>
                   </li>
                   <li>
@@ -157,8 +157,8 @@ export const Header = ({
                     <a href="/industry/fintech">Fintech</a>
                   </li>
                   <li>
-                    <a href="/industry/data-analytics-ai">
-                      Data Analytics & AI
+                    <a href="/industry/data-and-ai">
+                      Data & AI
                     </a>
                   </li>
                   <li>

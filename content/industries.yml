@@ -19,13 +19,13 @@
     - dyos
     - dpay
 
-- path: "/industry/data-analytics-ai"
-  title: "Data Analytics & AI"
-  description: "Innovative Data Analytics and AI solutions for startups"
-  headline: "Innovative Data Analytics and AI solutions for startups"
+- path: "/industry/data-and-ai"
+  title: "Data & AI"
+  description: "Innovative Data and AI solutions for startups"
+  headline: "Innovative Data and AI solutions for startups"
   image: "/images/industries/data.svg"
   content: "
-    <p>Aurora understands how important Data Analytics and AI are for startups, and we have helped numerous startups create great products in these fields. Our experienced team is well aware of how essential data analytics is for many ecosystems and we are extremely knowledgeable and experienced in this field.</p>
+    <p>Aurora understands how important Data and AI are for startups, and we have helped numerous startups create great products in these fields. Our experienced team is well aware of how essential data analytics is for many systems and we are extremely knowledgeable and experienced in this field.</p>
     <p>We also recognize that AI is the future and many systems now depend on it. That is why we are able to use the latest, up-to-date technologies to deliver outstanding AI solutions to our clients.</p>
     <p>Aurora is committed to providing the best possible service for the startups that come to us. Our team is dedicated to staying up-to-date with the latest technologies and trends to ensure that our clients are always getting industry-leading solutions.</p>
   "

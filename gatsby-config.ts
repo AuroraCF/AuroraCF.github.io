@@ -13,6 +13,21 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
+    /**
+     * Google Analytics
+     * https://www.gatsbyjs.com/plugins/gatsby-plugin-google-gtag
+     *
+     * We should keep this plugin at the top of the plugins array.
+     */
+    {
+      resolve: "gatsby-plugin-google-gtag",
+      options: {
+        trackingIds: ["G-XMKPGSNF9F"],
+        pluginConfig: {
+          head: true,
+        },
+      },
+    },
     "gatsby-plugin-sass",
     "gatsby-plugin-mdx",
     {
@@ -36,7 +51,6 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-plugin-tawk.to",
       options: {
-        // Keys that go into Tawk chat widget embedding script
         tawkId: "6405de1831ebfa0fe7f0f2df",
         tawkKey: "1gqren4dv",
       },

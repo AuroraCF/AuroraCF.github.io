@@ -1251,6 +1251,11 @@ p:not(:last-child) {
     .industry-case-studies__case-study {
       flex-basis: 100%;
       max-width: 100%;
+      flex-direction: column;
+    }
+
+    .industry-case-studies__case-study__logo {
+      width: 100% !important;
     }
   }
 }

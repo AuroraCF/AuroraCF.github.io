@@ -125,7 +125,7 @@ const CaseStudy = (props: any) => {
             {pageContext.relatedCaseStudies && (
               <ScrollWatch as="div" className="anim-upwards1">
                 <CaseStudies
-                  title={`Related ${pageContext.industry} case studies`}
+                  title={`Other ${pageContext.industry} projects we've worked on`}
                   ids={pageContext.relatedCaseStudies || []}
                 />
               </ScrollWatch>

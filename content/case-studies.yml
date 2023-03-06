@@ -1,5 +1,6 @@
 - path: "/case-study/ubdi"
   caseStudyId: "ubdi"
+  industry: "Data & AI"
   productName: "UBDI"
   productDescription: "UBDI is a product focused on enabling users to earn money by selling their data through a mobile app."
   title: "UBDI Case Study"
@@ -55,11 +56,15 @@
 
 - path: "/case-study/argent"
   caseStudyId: "argent"
+  industry: "Fintech"
   productName: "Argent"
   productDescription: "Argent is the world’s simplest and safest crypto wallet allowing users to buy, earn, stake, and trade on Ethereum Layer 2."
   title: "Argent Case Study"
   description: "How Aurora helped deliver the world's most secure and user-friendly crypto wallet"
   logo: "/images/service-pages/argent-logo.svg"
+  relatedCaseStudies:
+    - dyos
+    - dpay
   technologies:
     - react
     - nodejs
@@ -87,6 +92,7 @@
 
 - path: "/case-study/playmaker"
   caseStudyId: "playmaker"
+  industry: "Social Network & Community"
   productName: "Playmaker"
   productDescription: "A popular app for Fantasy Premier League discussion, stats, live FPL rank, and the community around it."
   title: "Playmaker Case Study"
@@ -120,11 +126,14 @@
 
 - path: "/case-study/blocktrain"
   caseStudyId: "blocktrain"
+  industry: "Health & Fitness"
   productName: "BlockTrain"
   productDescription: "Harnessing the power of technology for fitness: Optimizing your fitness journey with BlockTrain."
   title: "BlockTrain Case Study"
   description: "How Aurora created a workout builder app"
   logo: "/images/service-pages/blocktrain-logo.svg"
+  relatedCaseStudies:
+    - upgym
   technologies:
     - react
     - nodejs
@@ -150,11 +159,14 @@
 
 - path: "/case-study/upgym"
   caseStudyId: "upgym"
+  industry: "Health & Fitness"
   productName: "UpGym"
   productDescription: "The UpGym ecosystem consists of solutions that enable gym owners fully manage and oversee their facilities and members."
   title: "UpGym Case Study"
   description: "How Aurora create UpGym"
   logo: "/images/service-pages/upgym-logo.svg"
+  relatedCaseStudies:
+    - blocktrain
   technologies:
     - react
     - reactNative
@@ -182,11 +194,15 @@
 
 - path: "/case-study/dyos-wallet"
   caseStudyId: "dyos"
+  industry: "Fintech"
   productName: "dyos Wallet"
   productDescription: "dyos wallet is a cryptocurrency wallet that utilizes a variety of different currencies, a crypto exchange functionality, and much more!"
   title: "dyos Wallet Case Study"
   description: "How Aurora create a world-class crypto wallet"
   logo: "/images/service-pages/dyos-logo.svg"
+  relatedCaseStudies:
+    - argent
+    - dpay
   technologies:
     - reactNative
     - nodejs
@@ -214,11 +230,15 @@
 
 - path: "/case-study/dpay"
   caseStudyId: "dpay"
+  industry: "Fintech"
   productName: "dPay"
   productDescription: "Cryptocurrency payment point of sale that takes a variety of cryptocurrencies as a mode of payment."
   title: "dPay Case Study"
   description: "How Aurora create a world-class payment gateway"
   logo: "/images/service-pages/dpay-logo.svg"
+  relatedCaseStudies:
+    - argent
+    - dyos
   technologies:
     - react
     - reactNative

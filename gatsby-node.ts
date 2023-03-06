@@ -24,6 +24,8 @@ const createPages: GatsbyNode["createPages"] = async ({ actions }) => {
         technologies: element.technologies,
         headline: element.headline,
         blocks: element.blocks,
+        industry: element.industry,
+        relatedCaseStudies: element.relatedCaseStudies,
       },
     });
   });

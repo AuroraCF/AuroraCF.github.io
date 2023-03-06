@@ -4,6 +4,7 @@ import "../pages/styles.scss";
 import classNames from "classnames";
 import { ContactFormSection } from "../components/ContactFormSection";
 import { SEO } from "../components/SEO";
+import { CaseStudies } from "../components/CaseStudies";
 
 export const technologies: Record<string, { name: string; icon: string }> = {
   react: {
@@ -120,8 +121,18 @@ const CaseStudy = (props: any) => {
                 </div>
               );
             })}
+
+            {pageContext.relatedCaseStudies && (
+              <ScrollWatch as="div" className="anim-upwards1">
+                <CaseStudies
+                  title={`Related ${pageContext.industry} case studies`}
+                  ids={pageContext.relatedCaseStudies || []}
+                />
+              </ScrollWatch>
+            )}
           </div>
         </section>
+
         <ContactFormSection />
       </main>
       <Footer />

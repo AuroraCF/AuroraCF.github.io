@@ -29,6 +29,18 @@ const config: GatsbyConfig = {
         icon: "src/images/icon.png",
       },
     },
+    /**
+     * Tawk (tawk.to) live chat widget.
+     * https://www.gatsbyjs.com/plugins/gatsby-plugin-tawk.to/
+     */
+    {
+      resolve: "gatsby-plugin-tawk.to",
+      options: {
+        // Keys that go into Tawk chat widget embedding script
+        tawkId: "6405de1831ebfa0fe7f0f2df",
+        tawkKey: "1gqren4dv",
+      },
+    },
   ],
 };
 

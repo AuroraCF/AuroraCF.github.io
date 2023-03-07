@@ -20,6 +20,21 @@ const handleSubscribe = (data: any) => {
 };
 
 export const ContactFormSection = () => {
+  return (
+    <div id="contact-us" className="new-contact-us">
+      <div className="new-contact-us__container">
+        <div className="new-contact-us__intro">
+          <h5>Ready to take your software to the next level?</h5>
+          <a href="/contact" className="new-contact-us_button">
+            Let's talk
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const ContactFormSectionX = () => {
   const { register, handleSubmit, formState } = useForm();
 
   const onSubmit = async (data: any) => {

@@ -79,7 +79,7 @@ export const Hero = () => {
               Our tailored software solutions can help you bring your business
               to the <b>next level</b>
             </div>
-            <a href="#contact-us" className="button">
+            <a href="/contact" className="button">
               <span>Let’s Talk</span>
             </a>
           </div>

@@ -3666,12 +3666,12 @@ p:not(:last-child) {
     border-radius: 10px;
     background-color: rgb(22, 26, 78);
     color: #fff;
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: center;
 
-    h5 {
-      font-size: 36px;
-      margin-bottom: 40px;
+    .new-contact-us__title {
+      font-size: 30px;
+      margin-bottom: 30px;
       line-height: 1.1em;
     }
 
@@ -3679,7 +3679,7 @@ p:not(:last-child) {
       display: inline-block;
       background-color: #fff;
       color: rgb(22, 26, 78);
-      padding: 20px 30px;
+      padding: 12px 30px;
       border-radius: 30px;
       font-weight: bold;
       box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);

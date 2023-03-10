@@ -22,7 +22,12 @@ const handleSubscribe = (data: any) => {
 };
 
 const AboutUs = () => {
-  const { register, handleSubmit, formState, reset } = useForm();
+  const {
+    register,
+    handleSubmit,
+    formState: { isSubmitSuccessful, errors },
+    reset,
+  } = useForm();
 
   const onSubmit = async (data: any) => {
     await handleSubscribe(data);
@@ -32,7 +37,6 @@ const AboutUs = () => {
   return (
     <div className="wrapper">
       <Header />
-
       <main className="page">
         <section className="services inner-pages top-block">
           <div className="services__container">
@@ -97,73 +101,89 @@ const AboutUs = () => {
                   threshold="0.2"
                   className="services__text anim-upwards1"
                 >
-                  Or, send us a message and we will get back to you as soon as
-                  possible:
-                  <br />
-                  <br />
-                  {formState.isSubmitSuccessful ? (
+                  {isSubmitSuccessful ? (
                     <div className="success-message">
-                      Thank you for your message!
+                      Thank you for your message. Our team will get back to you
+                      soon!
                     </div>
                   ) : (
-                    <div className="form">
-                      <div className="form-line">
-                        <input
-                          required
-                          placeholder="Name *"
-                          className={classNames(
-                            "input",
-                            formState.errors.name && "input_error"
-                          )}
-                          {...register("name", { required: true })}
-                        />
-                      </div>
-                      <div className="form-line">
-                        <input
-                          required
-                          type="email"
-                          autoComplete="email"
-                          placeholder="Email *"
-                          className={classNames(
-                            "input",
-                            formState.errors.email && "input_error"
-                          )}
-                          {...register("email", { required: true })}
-                        />
-                      </div>
-                      <div className="form-line">
-                        <input
-                          autoComplete="off"
-                          type="text"
-                          placeholder="Phone number"
-                          className={classNames(
-                            "input",
-                            formState.errors.phone && "input_error"
-                          )}
-                          {...register("phone")}
-                        />
-                      </div>
-                      <div className="form-line">
-                        <textarea
-                          required
-                          cols={30}
-                          rows={6}
-                          placeholder="Your Message *"
-                          className={classNames(
-                            "input",
-                            formState.errors.message && "input_error"
-                          )}
-                          {...register("message", { required: true })}
-                        ></textarea>
-                      </div>
-                      <button
-                        type="submit"
-                        className="button-submit"
-                        onClick={handleSubmit(onSubmit)}
-                      >
-                        Submit
-                      </button>
-                    </div>
+                    <>
+                      Or, send us a message and we will get back to you as soon
+                      as possible:
+                      <br />
+                      <br />
+                      <form onSubmit={handleSubmit(onSubmit)}>
+                        <div className="form">
+                          <div className="form-line">
+                            <input
+                              placeholder="Name *"
+                              className={classNames(
+                                "input",
+                                errors.name && "input_error"
+                              )}
+                              {...register("name", { required: true })}
+                            />
+                            {errors.name && (
+                              <span className="input-error-message">
+                                Please enter your name
+                              </span>
+                            )}
+                          </div>
+                          <div className="form-line">
+                            <input
+                              type="email"
+                              autoComplete="email"
+                              placeholder="Email *"
+                              className={classNames(
+                                "input",
+                                errors.email && "input_error"
+                              )}
+                              {...register("email", {
+                                required: true,
+                              })}
+                            />
+                            {errors.email && (
+                              <span className="input-error-message">
+                                Please enter valid email address
+                              </span>
+                            )}
+                          </div>
+                          <div className="form-line">
+                            <input
+                              autoComplete="off"
+                              type="tel"
+                              placeholder="Phone number"
+                              className={classNames(
+                                "input",
+                                errors.phone && "input_error"
+                              )}
+                              {...register("phone")}
+                            />
+                          </div>
+                          <div className="form-line">
+                            <textarea
+                              cols={30}
+                              rows={6}
+                              placeholder="Your Message *"
+                              className={classNames(
+                                "input",
+                                errors.message && "input_error"
+                              )}
+                              {...register("message", { required: true })}
+                            ></textarea>
+                            {errors.message && (
+                              <span className="input-error-message">
+                                Please enter your message
+                              </span>
+                            )}
+                          </div>
+
+                          <button type="submit" className="button-submit">
+                            Submit
+                          </button>
+                        </div>
+                      </form>
+                    </>
                   )}
                 </ScrollWatch>
               </div>

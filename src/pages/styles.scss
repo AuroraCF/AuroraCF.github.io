@@ -1465,10 +1465,13 @@ p:not(:last-child) {
 }
 
 .button-submit {
+  width: 100%;
+  display: block;
   background: #545ba8;
   border-radius: 10px;
   font-weight: 600;
   font-size: 18px;
+  text-align: center;
   line-height: 27px;
   padding: 12px 45px;
   color: #ffffff;
@@ -3689,21 +3692,6 @@ p:not(:last-child) {
         transform: translateY(-2px);
       }
     }
-  }
-}
-
-.book-btn {
-  display: inline-block;
-  background-color: #545ba8;
-  padding: 15px 20px;
-  border-radius: 10px;
-  color: #fff;
-  transition: all .2s;
-  font-size: 20px;
-  font-weight: bold;
-
-  &:hover {
-    transform: translateY(-2px);
   }
 }
 

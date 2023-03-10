@@ -78,10 +78,10 @@ const AboutUs = () => {
                   <br />
                   <a
                     href="https://calendly.com/aurora-code/discovery-call"
-                    className="book-btn"
+                    className="button-submit"
                     target="_blank"
                   >
-                    Book your free call now
+                    Book free consultations
                   </a>
                 </ScrollWatch>
               </div>
